@@ -3,4 +3,4 @@
 
  Gerenciamento de repositórios
 
-<a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/"target="_blank"> Dan Morrill </a>
+<a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/" target="_blank"> Dan Morrill </a>

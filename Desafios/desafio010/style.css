@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format(opentype);
+}
+
+body {
+    margin: 0px;
+    background-color: #EBE5C5;
+}
+
+header {
+    background-image: linear-gradient(to top, #063D1E, #21844E);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    max-width: 100%;
+    padding: 10px;
+}
+
+h1#tituloprincipal {
+    font: normal lighter 48px 'Bebas Neue',cursive;
+    padding-top: 10px;
+}
+
+h2#h2header {
+    max-width: 1050px;
+    margin: auto;
+    font: normal normal 19px arial,sans-serif;
+    padding-bottom: 60px;
+}
+
+nav#navegacao {
+    text-align: left;
+}
+
+.navheader {
+    text-decoration: none;
+    color: #95d4b1;
+    margin-right: 10px;
+    font: normal bold 18px arial, sans-serif;
+    padding: 5px;
+}
+
+.navheader:hover {
+    background-color: #95d4b1;
+    color: black;
+    border-radius: 5px;
+}
+
+main {
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+    max-width: 1050px;
+}
+
+.linkinterno {
+    text-decoration: none;
+    background-color: #83E1AD;
+    padding: 5px;
+    font-weight: bold;  
+}
+
+.linkinterno::after {
+    content: '🔗';
+}
+
+h1#main {
+    background-color: white;
+    font-weight: lighter;
+    font-family: 'droid';
+    font-size: 1.7em;
+}
+
+.titulointerno {
+    font-weight: lighter;
+    font-family: 'droid';
+    font-size: 1.4em;
+    background-image: linear-gradient(to right, #84E2AE, #FFFFFF);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    word-spacing: 3px;
+
+    line-height: 30px;
+    text-align: justify;
+}
+
+span {
+    color: #21844E;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.droid {
+    width: 30%;
+    display: block;
+    margin: auto;  
+}
+
+section#video {
+    background-color: #063D1E;
+    max-width: 1050px;
+    margin: auto;
+    padding: 25px 15px;
+}
+
+section#sectionfinal {
+    background-color: white;
+    max-width: 1050px;
+    margin: auto;
+    padding: 15px;
+
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#divfinal {
+    background-color: #83E1AD;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 10px;
+
+}
+
+.titulofinal {
+    background-color: #1A5C37;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px 10px 0px 0px;
+    margin-bottom: 0px;
+}
+
+ul {
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+li::before {
+    content: '🗸'
+}
+
+footer {
+    background-color: #063D1E;
+    color: white;
+    padding: 10px;
+    font: normal normal 14px arial;
+    text-align: center;
+}

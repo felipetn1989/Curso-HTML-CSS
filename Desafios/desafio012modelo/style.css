@@ -54,7 +54,11 @@ section {
     line-height: 2em; /* espaçamento duplo entre as frases */
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 3.5vw; /* fonte com tamanho variável dependento do tamanho da tela */
+}
+
+section > p {
+    padding-bottom: 2em; /* espaço entre os parágrafos das sections com 2 parágrafos */
 }
 
 section.normal {
@@ -64,13 +68,26 @@ section.normal {
 
 section.imagem {
     background-color: rgb(63, 63, 63);
-    color: white; 
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473); /* deslocamento horizontal, desl vertical, espalhamento, ampliação e cor */
+    background-size: cover;
+    background-attachment: fixed; /* efeito paralaxe */
 }
 
 section.imagem > p {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.247);
+    display: inline-block; /* posso usar width em porcentagem para obter o mesmo efeito */
+    background-color: rgba(0, 0, 0, 0.514);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer {

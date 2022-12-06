@@ -16,7 +16,7 @@ header {
 header > h1 {
     font-family: 'Passion One', cursive;
     padding: 40px;
-    font-size: 102px;
+    font-size: 10vw;
 }
 
 header > h2 {
@@ -41,9 +41,9 @@ main {
 }
 
 main p {
-    width: 410px;
+    width: 40%;
     padding: 50px;
-    font-size: 35px;
+    font-size: 3.5vw;
     text-align: left;
 }
 
@@ -62,6 +62,7 @@ main p {
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 50px;
+    width: 43%;
 }
 
 #carta {
@@ -79,10 +80,11 @@ main p {
     padding: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 43%;
 }
 
 .longer {
-    width: 420px;
+    width: 50%;
 }
 
 footer {

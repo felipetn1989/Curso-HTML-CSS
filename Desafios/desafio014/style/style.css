@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 96vh;
+}
+
+.container_iphone {
+    position: relative;
+    text-align: center;
+}
+
+.foto_iphone {
+    position: absolute;
+    top: 20vh;
+    left: 50%;
+    transform: translate(-180px, 0px);
+    width: 360px;
+}
+
+.home_iphone {
+    position: absolute;
+    top: 20.7vh;
+    height: 750px;
+    transform: translate(-202px, 0px) scale(77%); 
+
+}

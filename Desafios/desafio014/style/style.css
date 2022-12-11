@@ -12,7 +12,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-155.5px, -313.5px);
+    transform: translate(-50%, -50%);
 }
 
 iframe {

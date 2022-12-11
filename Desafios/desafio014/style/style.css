@@ -29,3 +29,15 @@ iframe#tela {
     width: 266px;
     height: 469px;
 }
+
+section#icones {
+    margin: 20px 15px;
+    float: right;
+}
+
+.button {
+    display: block;
+    width: 60px;
+    border-radius: 150px;
+    margin-bottom: 20px;
+}

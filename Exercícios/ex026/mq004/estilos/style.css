@@ -11,7 +11,7 @@
 }
 
 html{
-    height: 100vh;
+    height: 100vh; /* observação: width estava causando rolagem lateral indesejada; height apenas no html e não no html e body */
 }
 
 body {

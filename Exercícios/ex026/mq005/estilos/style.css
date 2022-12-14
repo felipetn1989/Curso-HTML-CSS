@@ -55,7 +55,7 @@ menu > ul > li > a:hover {
     background-color: gray;
 }
 
-main {
+main#principal {
     width: 90vw;
     background-color: white;
     margin: auto;
